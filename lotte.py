@@ -1,0 +1,25 @@
+from random import *
+
+print("1회차")
+print(int(random() * 45) + 1)
+print(int(random() * 45) + 1)
+print(int(random() * 45) + 1)
+print(int(random() * 45) + 1)
+print(int(random() * 45) + 1)
+print(int(random() * 45) + 1)
+
+print("2회차")
+print(randrange(1, 46))
+print(randrange(1, 46))
+print(randrange(1, 46))
+print(randrange(1, 46))
+print(randrange(1, 46))
+print(randrange(1, 46))
+
+print("3회차")
+print(randint(1, 45))
+print(randint(1, 45))
+print(randint(1, 45))
+print(randint(1, 45))
+print(randint(1, 45))
+print(randint(1, 45))
