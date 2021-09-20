@@ -17,3 +17,15 @@
   margin-left: 25px;
   position: relative;
 }
+
+@keyframes rotatecog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.screen-header__icons .fa-cog {
+  animation: rotatecog 3s ease-in-out infinite;
+}

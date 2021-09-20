@@ -1,0 +1,144 @@
+#chat-screen {
+  background-color: gray;
+  height: 100vh;
+}
+#chat-screen .alt-header,
+#chat-screen .status-bar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: gray;
+}
+#chat-screen .status-bar {
+  z-index: 2;
+}
+#chat-screen .alt-header {
+  top: 5px;
+  z-index: 1;
+}
+
+@keyframes fadein {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.main-chat {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadein 0.5s linear;
+}
+.chat__timestamp {
+  background-color: var(--thinblack);
+  padding: 10px;
+  border-radius: 25px;
+  opacity: 0.7;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+.message-row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.message-row img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+  margin-right: 15px;
+}
+.message__author {
+  opacity: 0.7;
+  font-size: 16px;
+  margin-bottom: 7px;
+  display: block;
+}
+.message__buble {
+  background-color: var(--black);
+  padding: 13px;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  margin-right: 5px;
+  font-size: 18px;
+}
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+.message__time {
+  opacity: 0.7;
+  font-size: 13px;
+}
+.message-row--own {
+  justify-content: flex-end;
+}
+.message-row--own .message__buble {
+  background-color: var(--orange);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 0px;
+  margin-left: 5px;
+}
+.message-row--own .message__info {
+  flex-direction: row-reverse;
+}
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--orange);
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 25px;
+  align-items: center;
+  box-sizing: border-box;
+}
+.reply .reply__column:first-child {
+  width: 10%;
+}
+.reply .reply__column:last-child {
+  width: 90%;
+  position: relative;
+}
+.reply input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid honeydew;
+  border-radius: 20px;
+}
+.reply__column:last-child > i,
+.reply__column:last-child button {
+  position: absolute;
+  right: -10px;
+  top: 3px;
+}
+.reply__column:last-child > i {
+  right: 30px;
+  top: 11px;
+  color: black;
+}
+.reply__column button {
+  background-color: var(--orange);
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
+}
+.reply__column i {
+  opacity: 0.8;
+}
+.reply__column button i {
+  opacity: 1;
+}
