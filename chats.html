@@ -28,10 +28,18 @@
     <header class="screen-header">
       <h1 class="screen-header__title">채팅</h1>
       <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <a href="find.html"
+          ><span><i class="fas fa-search fa-lg"></i></span
+        ></a>
+        <a href="chats.html"
+          ><span><i class="far fa-comment fa-lg"></i></span
+        ></a>
+        <a href="https://kakaomusic.kakao.com/share/album/486268"
+          ><span><i class="fas fa-music fa-lg"></i></span
+        ></a>
+        <a href="setting.html"
+          ><span><i class="fas fa-cog fa-lg"></i></span
+        ></a>
       </div>
     </header>
 
@@ -46,33 +54,33 @@
             <div class="user-component__text">
               <h4 class="user-component__title">MabyeDog?</h4>
               <h6 class="user-component__subtitle">
-                i don't like cat! 고양이 안좋아해
+                i don't like cat! sorry just kidding
               </h6>
             </div>
           </div>
           <div class="user-component__column"></div>
         </div>
       </a>
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="screenshots/shiba.jpg"
-            class="user-component__avatar user-component__avatar"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title user-component__title__not-bold">
-              시바쓰
-            </h4>
-            <h6 class="user-component__subtitle">
-              안돼애애~<i class="far fa-grin-squint-tears fa-xs"></i>
-            </h6>
+      <a href="chat-shiba.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="screenshots/shiba.jpg"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title__not-bold">
+                Shiba
+              </h4>
+              <h6 class="user-component__subtitle">absolutly not</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">18:30</span>
+            <div class="badge">3</div>
           </div>
         </div>
-        <div class="user-component__column">
-          <span class="user-component__time">18:30</span>
-          <div class="badge">3</div>
-        </div>
-      </div>
+      </a>
     </main>
 
     <nav class="nav">
@@ -101,6 +109,9 @@
         </li>
       </ul>
     </nav>
+    <div id="no-mobile">
+      <span>Your screen is too big ㅠㅠ</span>
+    </div>
     <script
       src="https://kit.fontawesome.com/9d30bb72e5.js"
       crossorigin="anonymous"

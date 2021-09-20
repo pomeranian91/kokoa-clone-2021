@@ -28,18 +28,20 @@
     <header class="screen-header">
       <h1 class="screen-header__title">검색/추천</h1>
       <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <a href="find.html"><span><i class="fas fa-search fa-lg"></i></span></a>
+        <a href="setting.html"><span><i class="fas fa-cog fa-lg"></i></span></a>
         <span class="nav__notification3"> </span>
       </div>
     </header>
 
     <main class="main-screen">
       <div class="find-icons">
+        <a href="https://qr.naver.com/">
         <div class="find-icons__icon">
           <i class="fas fa-qrcode"></i>
           <span>QR Code</span>
         </div>
+      </a>
         <div class="find-icons__icon">
           <i class="far fa-address-book"></i>
           <span>Add by Contacts</span>
@@ -56,6 +58,7 @@
 
       <div class="recommended-friends">
         <h5 class="recommended-friends__title">추천 친구(AD)</h5>
+        <a href="http://www.polypark.co.kr/default/">
         <div class="recommended-friends__list">
           <img
             src="screenshots/polypark.png"
@@ -68,6 +71,7 @@
             </h6>
           </div>
         </div>
+      </a>
         <div class="recommended-friends__list">
           <img
             src="screenshots/pethotel.jpg"
@@ -84,26 +88,30 @@
       <div class="open-chat">
         <div class="open-chat__header">
           <h4 class="open-chat__title">유튜브</h4>
-          <span>유튜브 홈으로<i class="fas fa-chevron-right fa-xs"></i></span>
+          <a href="https://www.youtube.com/"><span>유튜브 홈으로<i class="fas fa-chevron-right fa-xs"></i></span></a>
         </div>
         <div class="open-post">
           <div class="open-post__column">
             <h5 class="open-post__title">#Puppies</h5>
             <h6 class="open-post__hashtags">#puppy#pet#cutedog</h6>
+            
             <div class="open-post__members">
               <img src="screenshots/cute.png"/>
               <span class="open-post__members-name">Cutest Puppies City</span>
               <div class="divider"></div>
               <span class="open-post__members-status">Active</span>
             </div>
+          
           </div>
           <div class="open-post__column">
+            <a href="https://www.youtube.com/user/martamisericordiamar">
             <div class="open-post__photo">
               <img src="screenshots/cute.png"/>
               <div class="open-post__heart-count">
                      <i class="fas fa-heart fa-xs"></i><span>36.1k</span>
                     </div>
             </div>
+          </a>
             
        
           </div>
@@ -137,6 +145,9 @@
         </li>
       </ul>
     </nav>
+    <div id="no-mobile">
+      <span>Your screen is too big ㅠㅠ</span>
+    </div>
     <script
       src="https://kit.fontawesome.com/9d30bb72e5.js"
       crossorigin="anonymous"
