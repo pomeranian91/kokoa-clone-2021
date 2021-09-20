@@ -1,0 +1,11 @@
+.badge {
+  color: var(--orange);
+  background-color: honeydew;
+  width: 30px;
+  height: 30px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}

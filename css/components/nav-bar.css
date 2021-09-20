@@ -16,22 +16,13 @@
   position: relative;
 }
 .nav__notification {
-  color: var(--orange);
-  background-color: var(--black);
-  width: 30px;
-  height: 30px;
-  font-weight: 800;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
   position: absolute;
   left: 15px;
   bottom: 15px;
 }
 .nav__notification2 {
   color: var(--orange);
-  background-color: var(--black);
+  background-color: honeydew;
   width: 8px;
   height: 8px;
   font-weight: 800;
@@ -42,4 +33,32 @@
   position: absolute;
   left: 35px;
   bottom: 28px;
+}
+.nav__notification3 {
+  color: var(--orange);
+  background-color: honeydew;
+  width: 8px;
+  height: 8px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+
+  border-radius: 50%;
+  position: absolute;
+  bottom: 30px;
+  left: 75px;
+}
+.nav__notification4 {
+  color: var(--orange);
+  background-color: honeydew;
+  width: 8px;
+  height: 8px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+
+  border-radius: 50%;
+  position: absolute;
+  bottom: 30px;
+  left: 125px;
 }

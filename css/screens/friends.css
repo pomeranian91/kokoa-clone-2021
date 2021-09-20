@@ -5,11 +5,13 @@
   font-size: 15px;
   display: block;
   margin-bottom: 10px;
+  margin-top: -15px;
 }
 #friends-display-link i {
   color: gray;
   margin-right: 5px;
   margin-left: 5px;
+  opacity: 0.6;
 }
 .friends-screen {
   padding: 0px var(--horizontal-space);
@@ -23,4 +25,5 @@
   margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }

@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
+  align-items: center;
 }
 .user-component__column,
 .user-component__column:first-child {
@@ -27,7 +28,7 @@
 .user-component__subtitle {
   color: var(--gray);
   margin-top: 7px;
-  font-size: 13px;
+  font-size: 15px;
 }
 .user-component__avatar--sm {
   width: 50px;
@@ -36,8 +37,17 @@
 }
 .user-component__title__not-bold {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 22px;
 }
 .user-component__column:last-child {
   color: var(--gray);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
+  opacity: 0.6;
 }

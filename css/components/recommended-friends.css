@@ -1,0 +1,36 @@
+.recommended-friends__list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.recommended-friends__avatar {
+  width: 80px;
+  height: 80px;
+  border: 1px solid honeydew;
+  border-radius: 10px;
+}
+.recommended-friends__text {
+  margin-left: 30px;
+  margin-top: 5px;
+}
+.recommended-friends__tense {
+  font-size: 23px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.recommended-friends__subtense {
+  color: var(--gray);
+  font-size: 14px;
+  opacity: 0.8;
+}
+.recommended-friends {
+  border-bottom: 1px solid honeydew;
+  border-top: 1px solid honeydew;
+  padding: 10px 0px;
+}
+.recommended-friends__title {
+  font-size: 15px;
+  font-weight: 500;
+}
